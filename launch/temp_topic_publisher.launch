@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="ros_base_solutions" type="temp_topic_publisher.py" name="temp_topic_publisher" output="log" respawn="false">
+        <param name="pub_freq" value="2"/>
+    </node>
+</launch>
